@@ -12,5 +12,5 @@ This project have the goal with implement some parallel computing technics and c
 
 ## Links
 
- - [Javascript JIT](https://wiki.mozilla.org/Modules/All#JavaScript_JIT) <!--Rivertrail/PJS -->
- 
+ - [Javascript JIT](https://wiki.mozilla.org/Modules/All#JavaScript_JIT)
+ - ["asm.js AOT compilation and startup performance"](https://blog.mozilla.org/luke/2014/01/14/asm-js-aot-compilation-and-startup-performance/)
