@@ -1,11 +1,15 @@
 # Research Mentorship - Parallel Computing in Javascript
 
-## Authors
+## Introdução
 
-Cabele de Paula Biachini, PhD
+### Justificativa (com embasamento teórico)
 
-Clauber Stipkovic, Computer Science Student
+### Problema de Pesquisa
 
-## About
+### Objetivo (geral e específico)
 
-## 
+## Método
+
+## Cronograma
+
+## Referências Bibliográficas
