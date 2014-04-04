@@ -4,7 +4,7 @@
 A pesquisa cientifica de computação paralela em Javascript tem como ponto de partida a aplicação de conceitos e técnicas de computação paralela tendo como ferramenta base a linguagem de programação Javascript. 
 
 ### Justificativa (com embasamento teórico)
-Com a crescente utilização da web como plataforma de desenvolvimento de aplicações, oferta de hardware com poder de alto processamento em dispositivos moveis cada vez maior, e a demanda por aplicações mais rápidas e que tenham baixo consumo de recursos desses dispositivos, a utilização de Javascript para tonar essas aplicações ricas e com usabilidade e acessibilidade é quase que mandatária.
+Com a crescente utilização da web como plataforma de desenvolvimento de aplicações, oferta de hardware com alto poder de processamento em dispositivos móveis cada vez maior, e a demanda por aplicações mais rápidas e que tenham baixo consumo de recursos desses dispositivos, a utilização de Javascript para tornar essas aplicações ricas e com usabilidade e acessibilidade é quase que mandatória.
 
 Tendo em vista a recente evolução e amadurecimento da linguagem Javascript (que antes era apenas interpretada pelo browser), o surgimento do framework NodeJS, a corrida dos browsers mais populares como Mozilla Firefox, Google Chrome, Apple Safari, entre outros, para oferecer aos usuários e principalmente aos desenvolvedores, engines de Javascript cada vez mais rápidas e eficientes, é notório que a aplicação de técnicas de computação paralela aos recursos das engines de interpretação de Javascript, podem contribuir para melhor desempenho dos browser, o que pode trazer melhor experiência para os usuários, melhor recurso computacional para os desenvolvedores e melhor utilização dos recursos computacionais.
 
@@ -40,7 +40,7 @@ Tendo um mapeamento das areas, a aplicação desses conceitos sera feita da segu
  - Testes de funcionalidade
  	- Testes funcionais serão escritos utilizando a plataforma Javascript Node.js
  - Testes de performance
- 	- Teste de performance serão feitos utilizando os pacotes NPM disponíveis para a plataforma de Javascript Node.js
+ 	- Teste de performance serão feitos utilizando os bundleds NPM (Node Package Manager) disponíveis para a plataforma de Javascript Node.js
  - Descrição da solução utilizada
 
 ## Cronograma
@@ -78,6 +78,12 @@ Tendo um mapeamento das areas, a aplicação desses conceitos sera feita da segu
  - STEFANOV, Stoyan. **JavaScript Patterns**. O'Reilly Media, 2010.
  - MACCAW, Alex. **JavaScript Web Applications**. O'Reilly Media, 2011.
  - WILSON, Jim R. **Node.js the Right Way**. Pragmatic Bookshelf, 2013.
+ - Trostler, Mark Ethan. **Testable JavaScript**. O'Reilly Media, 2013.
+ - ZAKAS, Nicholas C. **Maintainable JavaScript**. O'Reilly Media, 2012.
+ - Bolin, Michael. **Closure: The Definitive Guide**. O'Reilly Media, 2010.
+ - Burnham, Trevor. **Async JavaScript**. The Pragmatic Programmers, 2012.
+ - Saleh, Hazem. **JavaScript Unit Testing**. Packt Publishing, 2013.
+ - Fogus, Michael. **Functional JavaScript**. O'Reilly Media, 2013.
  
 ### Links
  - **CommonJS Specs Wiki** - http://wiki.commonjs.org/wiki/CommonJS
