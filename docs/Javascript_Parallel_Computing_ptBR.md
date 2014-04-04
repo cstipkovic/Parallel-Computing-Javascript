@@ -1,27 +1,33 @@
 # Iniciação Científica - Computação Paralela em Javascript
 
 ## Introdução
-Essa pesquisa cientifica tem como ponto de partida a aplicação de conceitos e técnicas de computação paralela atraves da implementacao tecnicas e praticos de computação paralela tendo como ferramenta base a linguagem de programação Javascript.
+A pesquisa cientifica de computação paralela em Javascript tem como ponto de partida a aplicação de conceitos e técnicas de computação paralela tendo como ferramenta base a linguagem de programação Javascript. 
 
 ### Justificativa (com embasamento teórico)
-Com a crescente utilização da web como plataforma de desenvolvimento de aplicações, oferta de hardware de dispositivos moveis com poder de alto processamento cada vez maior, e a demanda por aplicações mais rápidas e que tenham baixo consumo de recursos desses dispositivos 
+Com a crescente utilização da web como plataforma de desenvolvimento de aplicações, oferta de hardware com poder de alto processamento em dispositivos moveis cada vez maior, e a demanda por aplicações mais rápidas e que tenham baixo consumo de recursos desses dispositivos, a utilização de Javascript para tonar essas aplicações ricas e com usabilidade e acessibilidade é quase que mandatária.
 
-Com a utilização maciça de dispositivos moveis, e com o crescente poder de processamento que os novos dispositivos - seja ele celular ou tablet - possuem, aliado ao novo sistema operacional da Mozilla, chamado "Firefox OS", que tem como filosofia o termo "Open Web"
+Tendo em vista a recente evolução e amadurecimento da linguagem Javascript (que antes era apenas interpretada pelo browser), o surgimento do framework NodeJS, a corrida dos browsers mais populares como Mozilla Firefox, Google Chrome, Apple Safari, entre outros, para oferecer aos usuários e principalmente aos desenvolvedores, engines de Javascript cada vez mais rápidas e eficientes, é notório que a aplicação de técnicas de computação paralela aos recursos das engines de interpretação de Javascript, podem contribuir para melhor desempenho dos browser, o que pode trazer melhor experiência para os usuários, melhor recurso computacional para os desenvolvedores e melhor utilização dos recursos computacionais.
+
+Lembrando também que temos atualmente um sistema operacional inteiramente feito ferramentas e linguagens voltadas para a Web, que se chama Firefox OS.
+
+Nele temos o browser Mozilla Firefox como base para o sistema operacional, ou seja, parte desse sistema é mantido e executado graças a engine de interpretação de Javascript IonMonkey e seu JIT (just in time compiler).
+
+Optamos por utilizar os recursos de Javascript Engine e JIT da Mozilla, pois sabemos que todos os códigos estão disponíveis para utilização e alteração (liberdade garantida pela licença de utilização de código da própria Mozilla) e por sabermos que o projeto Mozilla sempre esteve aberto a colaboração de voluntários que queiram melhorar a web como um todo.
 
 ### Problema de Pesquisa
-Muitas aplicações feitas na web hoje, demandam de velocidade de processamento de código Javascript e poder de rápida renderização desse código no lado cliente (ou seja, o browser).
+Muitas aplicações feitas para web hoje, demandam de velocidade de processamento na interpretação da linguagem Javascript e poder de rápida renderização desse código no lado cliente (ou seja, o browser).
 
-Como temos uma gama de diferentes processadores (single core, dual core, quad core, etc) nos dispositivos, as implementações de código para interpretação e renderização de Javascript nas engines JS dos browser ainda é muito mal explorada na parte de conceitos de computação paralela.
+Como temos uma gama de diferentes processadores (single core, dual core, quad core, etc) nos dispositivos, as implementações de código para interpretação e renderização de Javascript nas engines dos browser ainda não é muito bem explorado quanto a utilização de conceitos de computação paralela.
 
 ### Objetivo
 
 ##### Geral
-Essa pesquisa tem como objetivo utilizar e implementar conceitos e metodologias relacionadas a computação paralela em uma browser engine utilizando principalmente a linguagem de programação Javascript.
+A pesquisa tem como objetivo implementar e utilizar conceitos de computação paralela na engine de interpretação e renderização de Javascript da Mozilla.
 
 #### Especifico
-A utilização de conceitos de computação paralela, paralelismo entre outros, será aplicada ao core de interpretação da engine de Javascript da Mozilla chamado "IonMonkey". Com a aplicação desses conceitos, teremos ganho na performance da engine Ionmonkey, pois a utilizando melhor os recursos dos processadores, a interpretação e renderização desse código sera muito mais rápida e eficiente.
+A utilização de conceitos de computação paralela, paralelismo, entre outros, será aplicada ao core de interpretação da engine de Javascript da Mozilla chamado "IonMonkey", bem como ao JIT (just in time compiler) que é parte da Javascript Engine. 
 
-This project have the goal with implement some parallel computing technics and concepts using the Javascript language (most of the time) at the SpiderMonkey JIT (Just in time Compiler).
+Com a aplicação desses conceitos, teremos ganho na performance da engine Ionmonkey, pois utilizando melhor os recursos do processadore, a interpretação e renderização desse código pelo JIT, será muito mais rápida, e com utilização mais eficiente dos recursos da maquina.
 
 ## Método
 Utilizando a engine de interpretação e renderização de javascript da mozilla, chamada Ionmonkey, iremos mapear as areas da engine JS que mais necessitam da aplicação de técnicas de computação paralela.
@@ -30,18 +36,17 @@ Tendo um mapeamento das areas, a aplicação desses conceitos sera feita da segu
  - Entendimento do código utilizado atualmente
  - Entendimento do problema que esse recurso causa
  - Estudo da melhor técnica a ser utilizada
- - Implementação da tecnica escolhida
+ - Implementação da técnica escolhida
  - Testes de funcionalidade
  	- Testes funcionais serão escritos utilizando a plataforma Javascript Node.js
  - Testes de performance
  	- Teste de performance serão feitos utilizando os pacotes NPM disponíveis para a plataforma de Javascript Node.js
  - Descrição da solução utilizada
- 
-
 
 ## Cronograma
 
 ## Referências Bibliográficas
+ - **Javascript Documentation** - https://developer.mozilla.org/en-US/docs/Web/JavaScript
  - FLANAGAN, David. **JavaScript: The Definitive Guide**. 6th Edition, O'Reilly Media, 2011. 
  - ZAKAS, Nicholas C. **High Performance JavaScript**. O'Reilly Media, 2010.
  - STEFANOV, Stoyan. **JavaScript Patterns**. O'Reilly Media, 2010.
