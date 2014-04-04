@@ -8,7 +8,7 @@ Com a crescente utilização da web como plataforma de desenvolvimento de aplica
 
 Tendo em vista a recente evolução e amadurecimento da linguagem Javascript (que antes era apenas interpretada pelo browser), o surgimento do framework NodeJS, a corrida dos browsers mais populares como Mozilla Firefox, Google Chrome, Apple Safari, entre outros, para oferecer aos usuários e principalmente aos desenvolvedores, engines de Javascript cada vez mais rápidas e eficientes, é notório que a aplicação de técnicas de computação paralela aos recursos das engines de interpretação de Javascript, podem contribuir para melhor desempenho dos browser, o que pode trazer melhor experiência para os usuários, melhor recurso computacional para os desenvolvedores e melhor utilização dos recursos computacionais.
 
-Lembrando também que temos atualmente um sistema operacional inteiramente feito ferramentas e linguagens voltadas para a Web, que se chama Firefox OS.
+Lembrando também que temos atualmente um sistema operacional inteiramente criado utilizando ferramentas e linguagems voltadas para a Web como HTML5, CSS e Javascript, que se chama Firefox OS.
 
 Nele temos o browser Mozilla Firefox como base para o sistema operacional, ou seja, parte desse sistema é mantido e executado graças a engine de interpretação de Javascript IonMonkey e seu JIT (just in time compiler).
 
@@ -45,12 +45,41 @@ Tendo um mapeamento das areas, a aplicação desses conceitos sera feita da segu
 
 ## Cronograma
 
+### Maio/2014
+
+### Junho/2014
+
+### Julho/2014
+
+### Agosto/2014
+
+### Setembro/2014
+
+### Outubro/2014
+
+### Novembro/2014
+
+### Dezembro/2014
+
+### Janeiro/2014
+
+### fevereiro/2014
+
+### Março/2014
+
+### Abril/2014
+
+
 ## Referências Bibliográficas
+
+### Livros
  - FLANAGAN, David. **JavaScript: The Definitive Guide**. 6th Edition, O'Reilly Media, 2011. 
  - ZAKAS, Nicholas C. **High Performance JavaScript**. O'Reilly Media, 2010.
  - STEFANOV, Stoyan. **JavaScript Patterns**. O'Reilly Media, 2010.
  - MACCAW, Alex. **JavaScript Web Applications**. O'Reilly Media, 2011.
  - WILSON, Jim R. **Node.js the Right Way**. Pragmatic Bookshelf, 2013.
+ 
+### Links
  - **CommonJS Specs Wiki** - http://wiki.commonjs.org/wiki/CommonJS
  - **Javascript Documentation** - https://developer.mozilla.org/en-US/docs/Web/JavaScript
  - **Javascript JIT** - https://wiki.mozilla.org/Modules/All#JavaScript_JIT
