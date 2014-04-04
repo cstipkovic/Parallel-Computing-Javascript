@@ -21,7 +21,7 @@ Como temos uma gama de diferentes processadores (single core, dual core, quad co
 
 ### Objetivo
 
-##### Geral
+#### Geral
 A pesquisa tem como objetivo implementar e utilizar conceitos de computação paralela na engine de interpretação e renderização de Javascript da Mozilla.
 
 #### Especifico
@@ -46,11 +46,12 @@ Tendo um mapeamento das areas, a aplicação desses conceitos sera feita da segu
 ## Cronograma
 
 ## Referências Bibliográficas
- - **Javascript Documentation** - https://developer.mozilla.org/en-US/docs/Web/JavaScript
  - FLANAGAN, David. **JavaScript: The Definitive Guide**. 6th Edition, O'Reilly Media, 2011. 
  - ZAKAS, Nicholas C. **High Performance JavaScript**. O'Reilly Media, 2010.
  - STEFANOV, Stoyan. **JavaScript Patterns**. O'Reilly Media, 2010.
  - MACCAW, Alex. **JavaScript Web Applications**. O'Reilly Media, 2011.
  - WILSON, Jim R. **Node.js the Right Way**. Pragmatic Bookshelf, 2013.
+ - **CommonJS Specs Wiki** - http://wiki.commonjs.org/wiki/CommonJS
+ - **Javascript Documentation** - https://developer.mozilla.org/en-US/docs/Web/JavaScript
  - **Javascript JIT** - https://wiki.mozilla.org/Modules/All#JavaScript_JIT
  - **asm.js AOT compilation and startup performance** - https://blog.mozilla.org/luke/2014/01/14/asm-js-aot-compilation-and-startup-performance/
