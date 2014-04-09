@@ -6,8 +6,6 @@
 (1) Esta pesquisa cientifica tem como ponto de partida a aplicação de conceitos e técnicas de computação paralela em engines de interpretação da linguagem de programação Javascript.
 
 ### Justificativa (com embasamento teórico)
-! Como são justificativas, alterei para lista
-
 ! (2) Fiquei com a impressão de que a web é uma plataforma de desenvolvimento, parece besteira mas alterei o texto para ficar mais explicito que a web é o novo alvo das aplicações
 
  - (2) A crescente demanda por aplicações que rodam no browser (Web Apps)
