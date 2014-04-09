@@ -40,9 +40,9 @@ A utilização de conceitos de computação paralela, paralelismo, entre outros,
 Com a aplicação desses conceitos teremos ganho na performance da engine, pois utilizando melhor os recursos dos processadores, a interpretação e renderização desse código pelo JIT, será muito mais rápida e com utilização mais eficiente dos recursos da maquina.
 
 ## Método
-! (5) Apenas simplifiquei o texto
+! (3) Apenas simplifiquei o texto
 
-(5) Mapearemos na engine de interpretação de javascript, as áreas que necessitam de aplicação de técnicas de computação paralela
+(3) Mapearemos na engine de interpretação de javascript, as áreas que necessitam de aplicação de técnicas de computação paralela
 
 Tendo um mapeamento das áreas, a aplicação desses conceitos sera feita da seguinte forma:
  - Compreensão do código atual
