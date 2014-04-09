@@ -1,22 +1,23 @@
 # Iniciação Científica - Computação Paralela em Javascript
 
 ## Introdução
-A pesquisa cientifica de computação paralela em Javascript tem como ponto de partida a aplicação de conceitos e técnicas de computação paralela, tendo como ferramenta base a linguagem de programação Javascript.
+! (1) Simplifiquei o texto pra não ficar com palavras repetitivas, pois fica difícil de entender o contexto
+(1) Esta pesquisa cientifica tem como ponto de partida a aplicação de conceitos e técnicas de computação paralela em engines de interpretação da linguagem de programação Javascript.
 
 ### Justificativa (com embasamento teórico)
 ! Como são justificativas, alterei para lista
-! (1) Fiquei com a impressão de que a web é uma plataforma de desenvolvimento, parece besteira mas alterei o texto para ficar mais explicito que a web é o novo alvo das aplicações
+! (2) Fiquei com a impressão de que a web é uma plataforma de desenvolvimento, parece besteira mas alterei o texto para ficar mais explicito que a web é o novo alvo das aplicações
 
- - (1) A crescente demanda por aplicações que rodam no browser (Web Apps)
+ - (2) A crescente demanda por aplicações que rodam no browser (Web Apps)
  - Oferta de hardware com alto poder de processamento em dispositivos móveis aumentando cada vez mais
  - A demanda por aplicações mais rápidas e com baixo consumo de recursos
 
 A utilização de Javascript para tornar essas aplicações ricas, com usabilidade e acessibilidade é quase que mandatória.
 
-! (2) estava parecendo que a engine js ia melhorar o desempenho do browser, alterei focando em aplicações
-! (3) estava redundante, simplifiquei
+! (3) estava parecendo que a engine js ia melhorar o desempenho do browser, alterei focando em aplicações
+! (4) estava redundante, simplifiquei
 
-Tendo em vista a recente evolução e amadurecimento da linguagem Javascript (que antes era apenas interpretada pelo browser), o surgimento do framework NodeJS, a corrida dos browsers mais populares como Mozilla Firefox, Google Chrome, Apple Safari, entre outros, para oferecer aos usuários e principalmente aos desenvolvedores, engines de Javascript cada vez mais rápidas e eficientes, é notório que a aplicação de técnicas de computação paralela aos recursos das engines de interpretação de Javascript, (2) podem contribuir para um melhor desempenho das aplicações web, o que pode trazer melhor experiência para os usuários, (3) e melhor uso dos recursos computacionais por parte dos desenvolvedores.
+Tendo em vista a recente evolução e amadurecimento da linguagem Javascript (que antes era apenas interpretada pelo browser), o surgimento do framework NodeJS, a corrida dos browsers mais populares como Mozilla Firefox, Google Chrome, Apple Safari, entre outros, para oferecer aos usuários e principalmente aos desenvolvedores, engines de Javascript cada vez mais rápidas e eficientes, é notório que a aplicação de técnicas de computação paralela aos recursos das engines de interpretação de Javascript, (3) podem contribuir para um melhor desempenho das aplicações web, o que pode trazer melhor experiência para os usuários, (4) e melhor uso dos recursos computacionais por parte dos desenvolvedores.
 
 Lembrando também que temos atualmente um sistema operacional inteiramente criado utilizando ferramentas e linguagens voltadas para a Web como HTML5, CSS e Javascript, chamado Firefox OS.
 
@@ -40,8 +41,8 @@ A utilização de conceitos de computação paralela, paralelismo, entre outros,
 Com a aplicação desses conceitos teremos ganho na performance da engine, pois utilizando melhor os recursos dos processadores, a interpretação e renderização desse código pelo JIT, será muito mais rápida e com utilização mais eficiente dos recursos da maquina.
 
 ## Método
-! (4) Apenas simplifiquei o texto
-(4) Mapearemos na engine de interpretação de javascript, as áreas que necessitam de aplicação de técnicas de computação paralela
+! (5) Apenas simplifiquei o texto
+(5) Mapearemos na engine de interpretação de javascript, as áreas que necessitam de aplicação de técnicas de computação paralela
 
 Tendo um mapeamento das áreas, a aplicação desses conceitos sera feita da seguinte forma:
  - Compreensão do código atual
