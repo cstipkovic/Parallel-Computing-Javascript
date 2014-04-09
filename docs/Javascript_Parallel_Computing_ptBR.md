@@ -11,7 +11,7 @@
 ! (2) Fiquei com a impressão de que a web é uma plataforma de desenvolvimento, parece besteira mas alterei o texto para ficar mais explicito que a web é o novo alvo das aplicações
 
  - (2) A crescente demanda por aplicações que rodam no browser (Web Apps)
- - Oferta de hardware com alto poder de processamento em dispositivos móveis aumentando cada vez mais
+ - A crescente oferta de hardware com alto poder de processamento em dispositivos móveis
  - A demanda por aplicações mais rápidas e com baixo consumo de recursos
 
 A utilização de Javascript para tornar essas aplicações ricas, com usabilidade e acessibilidade é quase que mandatória.
