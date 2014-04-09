@@ -2,6 +2,7 @@
 
 ## Introdução
 ! (1) Simplifiquei o texto pra não ficar com palavras repetitivas, pois fica difícil de entender o contexto
+
 (1) Esta pesquisa cientifica tem como ponto de partida a aplicação de conceitos e técnicas de computação paralela em engines de interpretação da linguagem de programação Javascript.
 
 ### Justificativa (com embasamento teórico)
