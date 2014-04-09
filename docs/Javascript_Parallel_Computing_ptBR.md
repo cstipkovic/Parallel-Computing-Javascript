@@ -1,21 +1,31 @@
 # Iniciação Científica - Computação Paralela em Javascript
 
 ## Introdução
-A pesquisa cientifica de computação paralela em Javascript tem como ponto de partida a aplicação de conceitos e técnicas de computação paralela tendo como ferramenta base a linguagem de programação Javascript. 
+A pesquisa cientifica de computação paralela em Javascript tem como ponto de partida a aplicação de conceitos e técnicas de computação paralela, tendo como ferramenta base a linguagem de programação Javascript.
 
 ### Justificativa (com embasamento teórico)
-Com a crescente utilização da web como plataforma de desenvolvimento de aplicações, oferta de hardware com alto poder de processamento em dispositivos móveis cada vez maior, a demanda por aplicações mais rápidas e que tenham baixo consumo de recursos desses dispositivos, a utilização de Javascript para tornar essas aplicações ricas, com usabilidade e acessibilidade é quase que mandatória.
+! Como são justificativas, alterei para lista
+! (1) Fiquei com a impressão de que a web é uma plataforma de desenvolvimento, parece besteira mas alterei o texto para ficar mais explicito que a web é o novo alvo das aplicações
 
-Tendo em vista a recente evolução e amadurecimento da linguagem Javascript (que antes era apenas interpretada pelo browser), o surgimento do framework NodeJS, a corrida dos browsers mais populares como Mozilla Firefox, Google Chrome, Apple Safari, entre outros, para oferecer aos usuários e principalmente aos desenvolvedores, engines de Javascript cada vez mais rápidas e eficientes, é notório que a aplicação de técnicas de computação paralela aos recursos das engines de interpretação de Javascript, podem contribuir para melhor desempenho dos browser, o que pode trazer melhor experiência para os usuários, melhor recurso computacional para os desenvolvedores e melhor utilização dos recursos computacionais.
+ - (1) A crescente demanda por aplicações que rodam no browser (Web Apps)
+ - Oferta de hardware com alto poder de processamento em dispositivos móveis aumentando cada vez mais
+ - A demanda por aplicações mais rápidas e com baixo consumo de recursos
 
-Lembrando também que temos atualmente um sistema operacional inteiramente criado utilizando ferramentas e linguagens voltadas para a Web como HTML5, CSS e Javascript, que se chama Firefox OS.
+A utilização de Javascript para tornar essas aplicações ricas, com usabilidade e acessibilidade é quase que mandatória.
+
+! (2) estava parecendo que a engine js ia melhorar o desempenho do browser, alterei focando em aplicações
+! (3) estava redundante, simplifiquei
+
+Tendo em vista a recente evolução e amadurecimento da linguagem Javascript (que antes era apenas interpretada pelo browser), o surgimento do framework NodeJS, a corrida dos browsers mais populares como Mozilla Firefox, Google Chrome, Apple Safari, entre outros, para oferecer aos usuários e principalmente aos desenvolvedores, engines de Javascript cada vez mais rápidas e eficientes, é notório que a aplicação de técnicas de computação paralela aos recursos das engines de interpretação de Javascript, (2) podem contribuir para um melhor desempenho das aplicações web, o que pode trazer melhor experiência para os usuários, (3) e melhor uso dos recursos computacionais por parte dos desenvolvedores.
+
+Lembrando também que temos atualmente um sistema operacional inteiramente criado utilizando ferramentas e linguagens voltadas para a Web como HTML5, CSS e Javascript, chamado Firefox OS.
 
 Nele temos o browser Mozilla Firefox como base para o sistema operacional, ou seja, parte desse sistema é mantido e executado graças a engine de interpretação de Javascript IonMonkey e seu JIT (just in time compiler).
 
-Optamos por utilizar os recursos de Javascript Engine e JIT da Mozilla, pois sabemos que todos os códigos estão disponíveis para utilização e alteração (liberdade garantida pela licença de utilização de código da própria Mozilla) e por sabermos que o projeto Mozilla sempre esteve aberto a colaboração de voluntários que queiram melhorar a web como um todo.
+Optamos por utilizar os recursos da engine de interpretação de Javascript e JIT da Mozilla, pois sabemos que todos os códigos estão disponíveis para utilização e alteração (liberdade garantida pela licença de utilização de código da própria Mozilla) e por sabermos que o projeto sempre esteve aberto a colaboração de voluntários que queiram melhorar a web como um todo.
 
 ### Problema de Pesquisa
-Muitas aplicações feitas para web hoje, demandam de velocidade de processamento na interpretação da linguagem Javascript e poder de rápida renderização desse código no lado cliente, ou seja, o browser.
+Muitas aplicações feitas para web hoje, demandam de velocidade de processamento na interpretação da linguagem Javascript e poder de rápida renderização do código no lado cliente, ou seja, o browser.
 
 Como temos uma gama de diferentes processadores (single core, dual core, quad core, etc) nos dispositivos, as implementações de código para interpretação e renderização de Javascript nas engines dos browser ainda não é muito bem explorado quanto a utilização de conceitos de computação paralela.
 
@@ -25,16 +35,17 @@ Como temos uma gama de diferentes processadores (single core, dual core, quad co
 A pesquisa tem como objetivo implementar e utilizar conceitos de computação paralela na engine de interpretação e renderização de Javascript da Mozilla.
 
 #### Especifico
-A utilização de conceitos de computação paralela, paralelismo, entre outros, será aplicada ao core de interpretação da engine de Javascript da Mozilla chamado "IonMonkey", bem como ao JIT (just in time compiler) que é parte da Javascript Engine.
+A utilização de conceitos de computação paralela, paralelismo, entre outros, será aplicada ao core de interpretação da engine de Javascript da Mozilla chamada "IonMonkey", bem como ao JIT (just in time compiler) que é parte da Javascript Engine.
 
-Com a aplicação desses conceitos teremos ganho na performance da engine IonMonkey, pois utilizando melhor os recursos do processadores, a interpretação e renderização desse código pelo JIT, será muito mais rápida e com utilização mais eficiente dos recursos da maquina.
+Com a aplicação desses conceitos teremos ganho na performance da engine, pois utilizando melhor os recursos dos processadores, a interpretação e renderização desse código pelo JIT, será muito mais rápida e com utilização mais eficiente dos recursos da maquina.
 
 ## Método
-Utilizando a engine de interpretação e renderização de javascript da mozilla, chamada IonMonkey, iremos mapear as áreas da engine JS que mais necessitam da aplicação de técnicas de computação paralela.
+! (4) Apenas simplifiquei o texto
+(4) Mapearemos na engine de interpretação de javascript, as áreas que necessitam de aplicação de técnicas de computação paralela
 
 Tendo um mapeamento das áreas, a aplicação desses conceitos sera feita da seguinte forma:
- - Entendimento do código utilizado atualmente
- - Entendimento do problema que esse recurso causa
+ - Compreensão do código atual
+ - Compreensão do problema que o recurso causa
  - Estudo da melhor técnica a ser utilizada
  - Implementação da técnica escolhida
  - Testes de funcionalidade
@@ -73,7 +84,7 @@ Tendo um mapeamento das áreas, a aplicação desses conceitos sera feita da seg
 ## Referências Bibliográficas
 
 ### Livros
- - FLANAGAN, David. **JavaScript: The Definitive Guide**. 6th Edition, O'Reilly Media, 2011. 
+ - FLANAGAN, David. **JavaScript: The Definitive Guide**. 6th Edition, O'Reilly Media, 2011.
  - ZAKAS, Nicholas C. **High Performance JavaScript**. O'Reilly Media, 2010.
  - STEFANOV, Stoyan. **JavaScript Patterns**. O'Reilly Media, 2010.
  - MACCAW, Alex. **JavaScript Web Applications**. O'Reilly Media, 2011.
@@ -84,7 +95,7 @@ Tendo um mapeamento das áreas, a aplicação desses conceitos sera feita da seg
  - Burnham, Trevor. **Async JavaScript**. The Pragmatic Programmers, 2012.
  - Saleh, Hazem. **JavaScript Unit Testing**. Packt Publishing, 2013.
  - Fogus, Michael. **Functional JavaScript**. O'Reilly Media, 2013.
- 
+
 ### Links
  - **CommonJS Specs Wiki** - http://wiki.commonjs.org/wiki/CommonJS
  - **Javascript Documentation** - https://developer.mozilla.org/en-US/docs/Web/JavaScript
