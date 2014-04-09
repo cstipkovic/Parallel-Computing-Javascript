@@ -16,11 +16,7 @@
 
 A utilização de Javascript para tornar essas aplicações ricas, com usabilidade e acessibilidade é quase que mandatória.
 
-! (3) estava parecendo que a engine js ia melhorar o desempenho do browser, alterei focando em aplicações
-
-! (4) estava redundante, simplifiquei
-
-Tendo em vista a recente evolução e amadurecimento da linguagem Javascript (que antes era apenas interpretada pelo browser), o surgimento do framework NodeJS, a corrida dos browsers mais populares como Mozilla Firefox, Google Chrome, Apple Safari, entre outros, para oferecer aos usuários e principalmente aos desenvolvedores, engines de Javascript cada vez mais rápidas e eficientes, é notório que a aplicação de técnicas de computação paralela aos recursos das engines de interpretação de Javascript, (3) podem contribuir para um melhor desempenho das aplicações web, o que pode trazer melhor experiência para os usuários, (4) e melhor uso dos recursos computacionais por parte dos desenvolvedores.
+Tendo em vista a recente evolução e amadurecimento da linguagem Javascript (que antes era apenas interpretada pelo browser), o surgimento do framework NodeJS, a corrida dos browsers mais populares como Mozilla Firefox, Google Chrome, Apple Safari, entre outros, para oferecer aos usuários e principalmente aos desenvolvedores, engines de Javascript cada vez mais rápidas e eficientes, é fato que a aplicação de técnicas de computação paralela aos recursos das engines de interpretação de Javascript, podem contribuir para o melhor uso dos recursos computacionais por parte dos desenvolvedores, resultando em melhor desempenho das aplicações web e melhor experiência de uso para os usuários.
 
 Lembrando também que temos atualmente um sistema operacional inteiramente criado utilizando ferramentas e linguagens voltadas para a Web como HTML5, CSS e Javascript, chamado Firefox OS.
 
