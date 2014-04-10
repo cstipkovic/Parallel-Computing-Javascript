@@ -1,15 +1,11 @@
 # Iniciação Científica - Computação Paralela em Javascript
 
 ## Introdução
-! (1) Simplifiquei o texto pra não ficar com palavras repetitivas, pois fica difícil de entender o contexto
-
-(1) Esta pesquisa cientifica tem como ponto de partida a aplicação de conceitos e técnicas de computação paralela em engines de interpretação da linguagem de programação Javascript.
+Esta pesquisa cientifica tem como ponto de partida a aplicação de conceitos e técnicas de computação paralela em engines de interpretação da linguagem de programação Javascript.
 
 ### Justificativa (com embasamento teórico)
-! (2) Fiquei com a impressão de que a web é uma plataforma de desenvolvimento, parece besteira mas alterei o texto para ficar mais explicito que a web é o novo alvo das aplicações
-
- - (2) A crescente demanda por aplicações que rodam no browser (Web Apps)
- - A crescente oferta de hardware com alto poder de processamento em dispositivos móveis
+ - Acrescente demanda por aplicações que rodam no browser (Web Apps)
+ - Acrescente oferta de hardware com alto poder de processamento em dispositivos móveis
  - A demanda por aplicações mais rápidas e com baixo consumo de recursos
 
 A utilização de Javascript para tornar essas aplicações ricas, com usabilidade e acessibilidade é quase que mandatória.
@@ -18,7 +14,7 @@ Tendo em vista a recente evolução e amadurecimento da linguagem Javascript (qu
 
 Lembrando também que temos atualmente um sistema operacional inteiramente criado utilizando ferramentas e linguagens voltadas para a Web como HTML5, CSS e Javascript, chamado Firefox OS.
 
-Nele temos o browser Mozilla Firefox como base para o sistema operacional, ou seja, parte desse sistema é mantido e executado graças a engine de interpretação de Javascript IonMonkey e seu JIT (just in time compiler).
+Nele temos o browser Mozilla Firefox como base para o sistema operacional, ou seja, parte desse sistema é mantido e executado graças a engine de interpretação de Javascript "IonMonkey" e seu JIT (just in time compiler).
 
 Optamos por utilizar os recursos da engine de interpretação de Javascript e JIT da Mozilla, pois sabemos que todos os códigos estão disponíveis para utilização e alteração (liberdade garantida pela licença de utilização de código da própria Mozilla) e por sabermos que o projeto sempre esteve aberto a colaboração de voluntários que queiram melhorar a web como um todo.
 
@@ -38,9 +34,7 @@ A utilização de conceitos de computação paralela, paralelismo, entre outros,
 Com a aplicação desses conceitos teremos ganho na performance da engine, pois utilizando melhor os recursos dos processadores, a interpretação e renderização desse código pelo JIT, será muito mais rápida e com utilização mais eficiente dos recursos da maquina.
 
 ## Método
-! (3) Apenas simplifiquei o texto
-
-(3) Mapearemos na engine de interpretação de javascript, as áreas que necessitam de aplicação de técnicas de computação paralela
+Mapearemos na engine de interpretação de javascript, as áreas que necessitam de aplicação de técnicas de computação paralela
 
 Tendo um mapeamento das áreas, a aplicação desses conceitos sera feita da seguinte forma:
  - Compreensão do código atual
@@ -55,15 +49,12 @@ Tendo um mapeamento das áreas, a aplicação desses conceitos sera feita da seg
 
 ## Cronograma
 
-### Maio/2014
-
-### Junho/2014
-
-### Julho/2014
-
 ### Agosto/2014
+ - Inscrição e envio da proposta de iniciação cientifica para a universidade
+ - Documentação inicial dos canais de comunicação que serão utilizados durante a pesquisa
 
 ### Setembro/2014
+ - 
 
 ### Outubro/2014
 
@@ -71,13 +62,24 @@ Tendo um mapeamento das áreas, a aplicação desses conceitos sera feita da seg
 
 ### Dezembro/2014
 
-### Janeiro/2014
+### Janeiro/2015
 
-### fevereiro/2014
+### Fevereiro/2015
 
-### Março/2014
+### Março/2015
 
-### Abril/2014
+### Abril/2015
+
+### Maio/2015
+
+### Junho/2015
+
+### Julho/2015
+
+### Agosto	/2015
+ - Revisão da documentação final da pesquisa
+ - Revisão e reteste dos códigos desenvolvidos
+ - Apresentação da conclusão e resultados da pesquisa
 
 
 ## Referências Bibliográficas
