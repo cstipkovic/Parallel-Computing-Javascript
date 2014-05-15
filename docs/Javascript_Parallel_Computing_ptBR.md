@@ -116,3 +116,4 @@ Tendo um mapeamento das áreas, a aplicação desses conceitos sera feita da seg
  - **asm.js** - https://developer.mozilla.org/en-US/docs/Games/Tools/asm.js
  - **asm.js AOT compilation and startup performance** - https://blog.mozilla.org/luke/2014/01/14/asm-js-aot-compilation-and-startup-performance/
  - **Measuring Code Coverage on Firefox** - https://developer.mozilla.org/en-US/docs/Measuring_Code_Coverage_on_Firefox
+ - http://wiki.ecmascript.org/doku.php?id=strawman:data_parallelism
