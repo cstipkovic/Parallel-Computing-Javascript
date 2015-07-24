@@ -1,0 +1,22 @@
+# Computacao paralela
+
+- http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-multicore-programming-primer-january-iap-2007/lecture-notes-and-video/l5-parallel-programming-concepts/
+- https://computing.llnl.gov/tutorials/parallel_comp/
+- https://www.researchgate.net/publication/238696002_Aspectos_Gerais_da_Computao_Paralela_e_do_Sistema_PVM
+- https://www.researchgate.net/publication/228774855_Introduction_to_Parallel_Programming_Concepts
+
+
+# Single Instruction Multiple Data (SIMD) em JavaScript Engine
+
+Simple instruction, multiple data (SIMD) é 
+
+Percebe-se que existem projetos que tem o foco em utilizar melhor os recursos de processamento paralelo nas JavaScript engines.
+
+Os que mais se destacam por funcionarem de forma satisfatória e por serem apoiados por grande empresas como a Intel e Mozilla são o projeto RiverTrail e o SIMD.
+
+O RiverTrails (conhecido também como Parallel JavasScript) é um projeto de código aberto que possui uma biblioteca JavaScript criada para prover suporte a execução de código usando computação paralela e processadores multi-core.
+
+- https://en.wikipedia.org/wiki/SIMD
+- https://hacks.mozilla.org/2014/10/introducing-simd-js/
+- https://01.org/blogs/tlcounts/2014/bringing-simd-javascript
+
