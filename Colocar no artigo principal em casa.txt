@@ -1,7 +1,0 @@
-# Computacao paralela
-
-- http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-multicore-programming-primer-january-iap-2007/lecture-notes-and-video/l5-parallel-programming-concepts/
-- https://computing.llnl.gov/tutorials/parallel_comp/
-- https://www.researchgate.net/publication/238696002_Aspectos_Gerais_da_Computao_Paralela_e_do_Sistema_PVM
-- https://www.researchgate.net/publication/228774855_Introduction_to_Parallel_Programming_Concepts
-
